@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #0044cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .session {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .session button {
+      margin-left: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .session button:hover {
+      background-color: #0056b3;
+    }
+    .info {
+      margin-top: 30px;
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .info h3 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .info ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .info ul li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Welcome to Language Sessions</h1>
+</header>
+
+<div class="content">
+  <!-- Session and Join Button -->
+  <div class="session">
+    <label>Session:</label>
+    <button id="join">Join</button>
+  </div>
+
+  <!-- Explanation Section -->
+  <div class="info">
+    <h3>Available Sessions</h3>
+    <ul>
+      <li>French</li>
+      <li>English</li>
+      <li>German</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
